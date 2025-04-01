@@ -1,8 +1,8 @@
-# X-Plane LSL Streamer Plugin
+# X-Plane LSL Implementation Plugin
 
 ## Overview
 
-The **X-Plane LSL Streamer Plugin** allows real-time streaming of flight data from X-Plane to **Lab Streaming Layer (LSL)**, making it easier to integrate with research applications, VR environments, neuroscience experiments, and other real-time data processing systems.
+The **X-Plane LSL Implementation Plugin** allows real-time streaming of flight data from X-Plane to **Lab Streaming Layer (LSL)**, making it easier to integrate with research applications, VR environments, neuroscience experiments, and other real-time data processing systems.
 
 ## Features
 
