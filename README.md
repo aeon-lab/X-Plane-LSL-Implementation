@@ -62,11 +62,6 @@ while True:
     print(f"Received: {sample} at {timestamp}")
 ```
 
-## Troubleshooting
-
-- **No data received?** Ensure the correct datarefs are enabled in `config.txt`.
-- **X-Plane crashes?** Check if the plugin is built for the correct X-Plane version.
-
 ## License
 
 This project is licensed under the **MIT License**.
