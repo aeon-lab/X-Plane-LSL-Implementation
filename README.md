@@ -26,8 +26,6 @@ Both binaries come from the **same source tree**; only the Visual Studio configu
 
 ### 1. Download
 
-#### Option A: Precompiled Binary 
-
 1. Download the latest version
 2. Extract the contents into `X-Plane 11/Resources/plugins/`, for example.
 
