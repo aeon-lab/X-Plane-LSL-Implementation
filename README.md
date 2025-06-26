@@ -1,27 +1,39 @@
-# X-Plane LSL Implementation Plugin
+# X-Plane → LSL «Flight-Data» Plug-in
 
-## Overview
+Light-weight X-Plane plug-in that streams user-selected **datarefs** to the  
+[Lab Streaming Layer (LSL)](https://labstreaminglayer.org) in real time – ideal for VR cockpits, human-in-the-loop studies, flight-training analytics, or neuroscience setups that need synchronous flight parameters.
 
-The **X-Plane LSL Implementation Plugin** allows real-time streaming of flight data from X-Plane to **Lab Streaming Layer (LSL)**, making it easier to integrate with research applications, VR environments, neuroscience experiments, and other real-time data processing systems.
+---
+
+## ✈️ Tested builds & simulator compatibility
+
+| Plug-in binary | Built with | Loads in | Simulator versions tested |
+|----------------|-----------|----------|---------------------------|
+| **`64/win.xpl`** | **x64**, SDK 4.1 | X-Plane ≥ 10.20 (64-bit) | **11.55r2**, **12.09r1** |
+| **`win.xpl`**   | **Win32**, SDK 2.1 | X-Plane ≤ 10.19 (32-bit) | **9.70** |
+
+Both binaries come from the **same source tree**; only the Visual Studio configuration changes.
+
+---
 
 ## Features
 
-- Streams selected X-Plane datarefs in real-time via **LSL**.
-- Configurable datarefs using a simple `config.txt` file.
-- Low-latency data transmission for real-time applications.
-
+* Real-time, low-latency streaming via **LSL**  
+  (unique stream UID per PC – multiple simulators on the same LAN are now visible simultaneously).
+* User-editable **`config.txt`** – enable or disable any dataref with a “1 / 0”.
+* Cross-version: runs unmodified in X-Plane 9 → 12 on Windows
 ## Installation
 
-### 1. Download & Build
+### 1. Download
 
-#### Option A: Precompiled Binary (Recommended)
+#### Option A: Precompiled Binary 
 
-1. Download the latest **precompiled release**.
-2. Extract the contents into `X-Plane 11/Resources/plugins/`.
+1. Download the latest version
+2. Extract the contents into `X-Plane 11/Resources/plugins/`, for example.
 
 ### 2. Configure Datarefs
 
-The plugin reads flight data from **X-Plane datarefs** listed in `config.txt`. Each dataref has a flag (1 for enabled, 0 for disabled). Modify `config.txt` in `X-Plane 11/Resources/plugins/LSL_XPlane_Plugin/` to customize data streaming.
+The plugin reads flight data from **X-Plane datarefs** listed in `config.txt`. Each dataref has a flag (1 for enabled, 0 for disabled). Modify `config.txt` in `X-Plane /Resources/plugins/LSL_XPlane_Plugin/` to customize data streaming.
 
 #### Example `config.txt`:
 
@@ -51,16 +63,7 @@ Launch X-Plane, and the plugin will automatically load.
 
 You can use **LabRecorder** to easily log your streamed data for later analysis. Alternatively, you can use Python with `pylsl` to receive streamed data:
 
-You can use **Python** with `pylsl` to receive streamed data:
-
-```python
-import pylsl
-stream = pylsl.resolve_stream('name', 'XPlaneData')
-inlet = pylsl.StreamInlet(stream[0])
-while True:
-    sample, timestamp = inlet.pull_sample()
-    print(f"Received: {sample} at {timestamp}")
-```
+You can use **Python** with `pylsl` to receive streamed data.
 
 ## License
 
