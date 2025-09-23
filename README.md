@@ -2,9 +2,10 @@
 **Authors**: Luis Jose Alarcon-Aneiva  · Nicoletta Fala  (Auburn University, AEON Lab)
 **Contact**: lja0024@auburn.edu · [https://aeonresearch.org/](https://aeonresearch.org/)
 
-This X-Plane plugin streams user-selected datarefs to the [Lab Streaming Layer (LSL)](https://labstreaminglayer.org) in real time, enabling rigorous human-in-the-loop experiments, flight-training analytics, and studies that require precise synchronization of flight parameters with physiological signals.
----
 
+This X-Plane plugin streams user-selected datarefs to the [Lab Streaming Layer (LSL)](https://labstreaminglayer.org) in real time, enabling rigorous human-in-the-loop experiments, flight-training analytics, and studies that require precise synchronization of flight parameters with physiological signals.
+
+---
 ## ✈️ Tested builds & simulator compatibility
 
 | Plug-in binary | Built with | Loads in | Simulator versions tested |
