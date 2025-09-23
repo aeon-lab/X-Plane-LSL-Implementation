@@ -68,7 +68,7 @@ You can use **Python** with `pylsl` to receive streamed data.
 
 If this plugin contributes to your research, please cite our paper:
 
-> Alarcon-Aneiva, L. J., & Fala, N. (2025). **Real-Time Synchronization of Flight Simulation and Physiological Data Using Lab Streaming Layer: A Custom X-Plane Approach.** *Proceedings of the 23rd International Symposium on Aviation Psychology*, 23, 222–227. [PDF link]
+> Alarcon-Aneiva, L. J., & Fala, N. (2025). **Real-Time Synchronization of Flight Simulation and Physiological Data Using Lab Streaming Layer: A Custom X-Plane Approach.** *Proceedings of the 23rd International Symposium on Aviation Psychology*, 23, 222–227. [[PDF link](https://corescholar.libraries.wright.edu/isap_2025/38/)]
 
 ### BibTeX
 ```bibtex
