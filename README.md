@@ -82,7 +82,7 @@ If this plugin contributes to your research, please cite our paper:
   note      = {Wright State University},
   url       = {<https://corescholar.libraries.wright.edu/isap_2025/38/>}
 }
-
+```
 
 ## License
 
