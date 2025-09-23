@@ -1,8 +1,8 @@
 # X-Plane → LSL «Flight-Data» Plug-in
+**Authors**: Luis Jose Alarcon-Aneiva  · Nicoletta Fala  (Auburn University, AEON Lab)
+**Contact**: lja0024@auburn.edu · [https://aeonresearch.org/](https://aeonresearch.org/)
 
-Light-weight X-Plane plug-in that streams user-selected **datarefs** to the  
-[Lab Streaming Layer (LSL)](https://labstreaminglayer.org) in real time – ideal for VR cockpits, human-in-the-loop studies, flight-training analytics, or neuroscience setups that need synchronous flight parameters.
-
+This X-Plane plugin streams user-selected datarefs to the [Lab Streaming Layer (LSL)](https://labstreaminglayer.org) in real time, enabling rigorous human-in-the-loop experiments, flight-training analytics, and studies that require precise synchronization of flight parameters with physiological signals.
 ---
 
 ## ✈️ Tested builds & simulator compatibility
@@ -62,6 +62,26 @@ Launch X-Plane, and the plugin will automatically load.
 You can use **LabRecorder** to easily log your streamed data for later analysis. Alternatively, you can use Python with `pylsl` to receive streamed data:
 
 You can use **Python** with `pylsl` to receive streamed data.
+
+## 📚 Cite this plugin
+
+If this plugin contributes to your research, please cite our paper:
+
+> Alarcon-Aneiva, L. J., & Fala, N. (2025). **Real-Time Synchronization of Flight Simulation and Physiological Data Using Lab Streaming Layer: A Custom X-Plane Approach.** *Proceedings of the 23rd International Symposium on Aviation Psychology*, 23, 222–227. [PDF link]
+
+### BibTeX
+```bibtex
+@inproceedings{alarcon-aneiva2025-realtime-lsl-xplane,
+  author    = {Luis Jose Alarcon-Aneiva and Nicoletta Fala},
+  title     = {Real-Time Synchronization of Flight Simulation and Physiological Data Using Lab Streaming Layer: A Custom X-Plane Approach},
+  booktitle = {Proceedings of the 23rd International Symposium on Aviation Psychology},
+  year      = {2025},
+  volume    = {23},
+  pages     = {222--227},
+  note      = {Wright State University},
+  url       = {<https://corescholar.libraries.wright.edu/isap_2025/38/>}
+}
+
 
 ## License
 
