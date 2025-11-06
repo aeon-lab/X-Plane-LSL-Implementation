@@ -56,7 +56,7 @@ Launch X-Plane, and the plugin will automatically load.
 
 - Open **Plugins > Plugin Admin** in X-Plane.
 - Look for **LSL\_XPlane\_Plugin** and ensure it is enabled.
-- Check **X-Plane Log.txt** or use **XPLMDebugString** for debugging messages.
+- Check **X-Plane Log.txt** for debugging messages.
 
 ### 3. Connect with LSL Receiver
 
