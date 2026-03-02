@@ -85,8 +85,8 @@ If this plugin or the Lab Streaming Layer (LSL) framework facilitates your resea
 ### 1. Research Paper (This Plugin)
 > Alarcon-Aneiva, L. J., & Fala, N. (2025). **Real-Time Synchronization of Flight Simulation and Physiological Data Using Lab Streaming Layer: A Custom X-Plane Approach.** *Proceedings of the 23rd International Symposium on Aviation Psychology*, 23, 222–227. [[Full Paper PDF](https://corescholar.libraries.wright.edu/isap_2025/38/)]
 
-### 2. Lab Streaming Layer (LSL) Software Framework
-> Kothe, C., Mullen, T., Xu, J., Maher, S., & Metting van Rijn, A. (2024). **Lab Streaming Layer (LSL)** [Computer software]. GitHub. https://github.com/sccn/labstreaminglayer
+### 2. Lab Streaming Layer (LSL) Framework
+> Kothe, C., Shirazi, S. Y., Stenner, T., Medine, D., Boulay, C., Grivich, M. I., Artoni, F., Mullen, T., Delorme, A., & Makeig, S. (2025). **The Lab Streaming Layer for Synchronized Multimodal Recording.** *Imaging Neuroscience*, 3, IMAG.a.136. https://doi.org/10.1162/IMAG.a.136
 
 ---
 
@@ -103,12 +103,15 @@ If this plugin or the Lab Streaming Layer (LSL) framework facilitates your resea
   url       = {[https://corescholar.libraries.wright.edu/isap_2025/38/](https://corescholar.libraries.wright.edu/isap_2025/38/)}
 }
 
-@software{Kothe_Lab_Streaming_Layer_2024,
-  author = {Kothe, Christian and Mullen, Tim and Xu, Jinyi and Maher, Stephen and Metting van Rijn, AC},
-  title = {{Lab Streaming Layer (LSL)}},
-  url = {[https://github.com/sccn/labstreaminglayer](https://github.com/sccn/labstreaminglayer)},
-  version = {1.16},
-  year = {2024}
+@article{kothe2025lsl,
+  author  = {Kothe, Christian and Shirazi, S. Y. and Stenner, T. and Medine, D. and Boulay, C. and Grivich, M. I. and Artoni, F. and Mullen, T. and Delorme, A. and Makeig, S.},
+  title   = {The Lab Streaming Layer for Synchronized Multimodal Recording},
+  journal = {Imaging Neuroscience},
+  volume  = {3},
+  pages   = {IMAG.a.136},
+  year    = {2025},
+  doi     = {10.1162/IMAG.a.136},
+  url     = {[https://doi.org/10.1162/IMAG.a.136](https://doi.org/10.1162/IMAG.a.136)}
 }
 ```
 
