@@ -14,13 +14,6 @@ This X-Plane plugin provides a high-performance bridge between the **X-Plane Fli
 
 This plugin was developed and validated at the **AEON Lab (Auburn University)** to solve complex data synchronization challenges in multi-modal flight studies.
 
-### Successful Experimental Setup
-We have successfully demonstrated the plugin’s reliability by simultaneously synchronizing and recording data from the following hardware on a **single local network**:
-* **2x PC-based Simulators**: Running **X-Plane 12**.
-* **2x Varjo XR-4**: Capturing high-fidelity **Eye Tracking** and gaze data.
-* **2x Polar H10**: Capturing **Heart Rate (ECG)** telemetry.
-* **1x Legacy Simulator**: A professional **PFC DCX MAX** running **X-Plane 9**.
-
 ### Revitalizing Legacy Hardware
 A key advantage of this plugin is its ability to extract data from **older or traditional flight simulators** (like the PFC DCX MAX). Previously, these systems lacked native high-speed streaming or modern logging capabilities. This implementation allows researchers to bring "legacy" hardware into a modern LSL-synchronized pipeline without hardware modifications.
 
