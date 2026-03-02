@@ -1,4 +1,4 @@
-# X-Plane LSL Gateway: Real-Time Flight Data Synchronization
+# X-Plane LSL Plugin Implementation: Real-Time Flight Data Synchronization
 
 **Authors**: Luis Jose Alarcon-Aneiva & Nicoletta Fala (Auburn University, AEON Lab)  
 **Contact**: [lja0024@auburn.edu](mailto:lja0024@auburn.edu) · [https://aeonresearch.org/](https://aeonresearch.org/)
