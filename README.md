@@ -80,10 +80,17 @@ For research, use [LabRecorder](https://github.com/labstreaminglayer/App-LabReco
 
 ## 📚 Cite this work
 
-If this plugin facilitates your research, please cite:
+If this plugin or the Lab Streaming Layer (LSL) framework facilitates your research, please cite the following:
 
+### 1. Research Paper (This Plugin)
 > Alarcon-Aneiva, L. J., & Fala, N. (2025). **Real-Time Synchronization of Flight Simulation and Physiological Data Using Lab Streaming Layer: A Custom X-Plane Approach.** *Proceedings of the 23rd International Symposium on Aviation Psychology*, 23, 222–227. [[Full Paper PDF](https://corescholar.libraries.wright.edu/isap_2025/38/)]
 
+### 2. Lab Streaming Layer (LSL) Software Framework
+> Kothe, C., Mullen, T., Xu, J., Maher, S., & Metting van Rijn, A. (2024). **Lab Streaming Layer (LSL)** [Computer software]. GitHub. https://github.com/sccn/labstreaminglayer
+
+---
+
+### BibTeX
 ```bibtex
 @inproceedings{alarcon-aneiva2025-realtime-lsl-xplane,
   author    = {Luis Jose Alarcon-Aneiva and Nicoletta Fala},
@@ -92,9 +99,17 @@ If this plugin facilitates your research, please cite:
   year      = {2025},
   volume    = {23},
   pages     = {222--227},
+  note      = {Wright State University},
   url       = {[https://corescholar.libraries.wright.edu/isap_2025/38/](https://corescholar.libraries.wright.edu/isap_2025/38/)}
 }
 
+@software{Kothe_Lab_Streaming_Layer_2024,
+  author = {Kothe, Christian and Mullen, Tim and Xu, Jinyi and Maher, Stephen and Metting van Rijn, AC},
+  title = {{Lab Streaming Layer (LSL)}},
+  url = {[https://github.com/sccn/labstreaminglayer](https://github.com/sccn/labstreaminglayer)},
+  version = {1.16},
+  year = {2024}
+}
 ```
 
 ---
