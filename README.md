@@ -12,7 +12,7 @@ This X-Plane plugin provides a high-performance bridge between the **X-Plane Fli
 
 ## 🔬 Academic Citations
 
-If this plugin facilitates your research, please cite our peer-reviewed work:
+If this plugin facilitates your research, please cite our work:
 
 > Alarcon-Aneiva, L. J., & Fala, N. (2025). **Real-Time Synchronization of Flight Simulation and Physiological Data Using Lab Streaming Layer: A Custom X-Plane Approach.** *Proceedings of the 23rd International Symposium on Aviation Psychology*, 23, 222–227. [[Full Paper PDF](https://corescholar.libraries.wright.edu/isap_2025/38/)]
 
